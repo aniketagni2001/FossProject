@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Left Section - Logo -->
+            <div class="nav-left">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h1><span class="foss">Foss</span><span class="workshop">Workshop</span></h1>
+                </div>
+            </div>
+
+            <!-- Center Section - Navigation Links -->
+            <div class="nav-center">
+                <div class="nav-links">
+                    <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
+                    <div class="dropdown">
+                        <a href="#courses"><i class="fas fa-graduation-cap"></i> Courses <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#devops">DevOps Engineering</a>
+                            <a href="#data">Data Science</a>
+                            <a href="#design">UI/UX Design</a>
+                            <a href="#ml">Machine Learning</a>
+                        </div>
+                    </div>
+                    <a href="#why-us"><i class="fas fa-star"></i> WhyUs</a>
+                    <a href="#resources"><i class="fas fa-book"></i> Resources</a>
+                    <a href="#blog"><i class="fas fa-rss"></i> Blog</a>
+                    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                </div>
+            </div>
+
+            <!-- Right Section - Buttons -->
+            <div class="nav-right">
+                <div class="nav-buttons">
+                    <button class="btn btn-login"><i class="fas fa-user"></i> Login</button>
+                    <button class="btn btn-apply">Apply Now</button>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Online learning with experts in your corner</h1>
+                <p>Gain the confidence to launch a new career in 9 months or less, backed by a job guarantee.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <span class="check-icon">✓</span>
+                        <p>Expansive tech curriculum makes it easy to build pro skills with articles, videos, hands-on practice, and portfolio projects</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="check-icon">✓</span>
+                        <p>Our online learning platform gives you simple ways to set goals, track your progress, and get help when you need it</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="check-icon">✓</span>
+                        <p>You're matched with an industry mentor who guides your growth throughout the program via regular video calls</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="check-icon">✓</span>
+                        <p>A career services team helps you build networking, interviewing, and job search skills even after graduation</p>
+                    </div>
+                </div>
+                <button class="btn btn-primary">View Courses</button>
+            </div>
+            <div class="hero-form">
+                <div class="form-container">
+                    <h2>Ready to launch your career?</h2>
+                    <form>
+                        <div class="form-group">
+                            <label>SELECT YOUR PROGRAM *</label>
+                            <select required>
+                                <option value="" disabled selected>Please select...</option>
+                                <option>Software Engineering</option>
+                                <option>Data Science</option>
+                                <option>UI/UX Design</option>
+                                <option>Cybersecurity</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>ENTER YOUR EMAIL *</label>
+                            <input type="email" placeholder="Please enter email" required>
+                        </div>
+                        <button type="submit" class="btn btn-apply">Apply Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies Section -->
+    <section class="companies">
+        <div class="container">
+            <p class="companies-text">We've helped thousands of grads go from beginner to pro, landing jobs at companies like these:</p>
+            <div class="company-logos">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Walmart_logo.svg" alt="Walmart">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Associate Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Associate Partners</h2>
+                <p>Proudly collaborating with leading open-source organizations to deliver cutting-edge tech education</p>
+            </div>
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>Open Source India</h3>
+                    <p>India's largest open-source technology community and innovation hub</p>
+                    <div class="partner-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Exclusive workshops and events</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Community-driven learning</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Industry expert mentorship</span>
+                        </div>
+                    </div>
+                    <a href="#learn-more" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <img src="logo.png" alt="OpenStack">
+                    </div>
+                    <h3>Open Stack Mini</h3>
+                    <p>Leading cloud computing platform for scalable infrastructure solutions</p>
+                    <div class="partner-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Cloud infrastructure training</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Hands-on lab environments</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Certification preparation</span>
+                        </div>
+                    </div>
+                    <a href="#learn-more" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Choose your course and explore a new career path</h2>
+                <p>Want a new career? Ok, let's do it. In as little as 6 months, you'll learn the tools, skills, and insights to get the job you want—all with an expert team of humans supporting your journey</p>
+            </div>
+            <div class="course-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://media.istockphoto.com/id/1356019242/photo/devops-concept.jpg?s=2048x2048&w=is&k=20&c=-HZwTr_TE5TlXyiGnh6ItatqgTaf79bm9Ps_-NbuRYU=" alt="DevOps">
+                    </div>
+                    <h3>DevOps / AWS </h3>
+                    <span class="guarantee-badge">JOB GUARANTEE</span>
+                    <p>Master automation, CI/CD, and cloud infrastructure for modern software delivery</p>
+                    <button class="btn btn-outline">View Course</button>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://cdn.create.vista.com/api/media/medium/659433652/stock-photo-data-science-deep-learning-artificial-intelligence-analysis-internet-modern-technology?token=" alt="Data Science">
+                    </div>
+                    <h3>Data Science</h3>
+                    <span class="guarantee-badge">JOB GUARANTEE</span>
+                    <p>Transform raw data into insights using Python, SQL, and advanced analytics</p>
+                    <button class="btn btn-outline">View Course</button>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://cdn.create.vista.com/api/media/medium/350873024/stock-photo-overhead-view-designers-using-gadgets-while-planning-user-experience-design?token=" alt="UI / UX Design">
+                    </div>
+                    <h3>UI / UX Design</h3>
+                    <span class="guarantee-badge">JOB GUARANTEE</span>
+                    <p>Create beautiful, intuitive interfaces that users love</p>
+                    <button class="btn btn-outline">View Course</button>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://cdn.create.vista.com/api/media/medium/169135820/stock-photo-machine-learning-computing-concept-of-modern-it-technology?token=" alt="Machine Learning">
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <span class="guarantee-badge">JOB GUARANTEE</span>
+                    <p>Build intelligent systems using cutting-edge AI and deep learning</p>
+                    <button class="btn btn-outline">View Course</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alumni and Student Success Section -->
+    <section class="alumni">
+        <div class="container">
+            <div class="section-header">
+                <h2>Success Stories</h2>
+                <p>Meet our alumni and students who transformed their careers with FossWorkshop</p>
+            </div>
+            
+            <div class="success-stories">
+                <!-- Alumni Story -->
+                <div class="story-card alumni-story">
+                    <div class="story-header">
+                        <div class="profile-img">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop" alt="Sarah Johnson">
+                        </div>
+                        <div class="profile-info">
+                            <h3>Sarah Johnson</h3>
+                            <p class="role">Senior DevOps Engineer @ Amazon</p>
+                            <div class="course-tag">DevOps / AWS Course</div>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <p>"FossWorkshop's hands-on approach and industry-focused curriculum helped me transition from a junior developer to a senior DevOps role. The practical projects and mentorship were invaluable."</p>
+                        <div class="achievement">
+                            <i class="fas fa-arrow-trend-up"></i>
+                            <span>150% Salary Increase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Current Student -->
+                <div class="story-card student-story">
+                    <div class="story-header">
+                        <div class="profile-img">
+                            <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=150&h=150&fit=crop" alt="Raj Patel">
+                        </div>
+                        <div class="profile-info">
+                            <h3>Raj Patel</h3>
+                            <p class="role">ML Engineer Intern @ Google</p>
+                            <div class="course-tag">Machine Learning Course</div>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <p>"Currently in my final month of the ML course, I've already landed an internship at Google. The project-based learning and AI lab sessions gave me practical experience that impressed employers."</p>
+                        <div class="achievement">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Built 5 Production ML Models</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alumni Story -->
+                <div class="story-card alumni-story">
+                    <div class="story-header">
+                        <div class="profile-img">
+                            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150&h=150&fit=crop" alt="Emily Chen">
+                        </div>
+                        <div class="profile-info">
+                            <h3>Emily Chen</h3>
+                            <p class="role">UX Design Lead @ Microsoft</p>
+                            <div class="course-tag">UI/UX Design Course</div>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <p>"The UI/UX course provided me with a solid foundation in design thinking and user research. The portfolio I built during the course helped me land my dream job at Microsoft."</p>
+                        <div class="achievement">
+                            <i class="fas fa-award"></i>
+                            <span>Best Designer Award 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">xxx+</div>
+                    <div class="stat-label">Graduates</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">94%</div>
+                    <div class="stat-label">Placement Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.5L</div>
+                    <div class="stat-label">Avg. Salary</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">X+</div>
+                    <div class="stat-label">Partner Companies</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h2><span class="foss">Foss</span><span class="workshop">Workshop</span></h2>
+                    </div>
+                    <p class="footer-description">
+                        Transform your career with industry-leading tech education. Join thousands of successful graduates.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#why-us">Why Us</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Courses -->
+                <div class="footer-section">
+                    <h3>Our Courses</h3>
+                    <ul class="footer-links">
+                        <li><a href="#devops">DevOps Engineering</a></li>
+                        <li><a href="#data">Data Science</a></li>
+                        <li><a href="#design">UI/UX Design</a></li>
+                        <li><a href="#ml">Machine Learning</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 98230 00000   </span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@fossworkshop.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Tech Street,Pune<br>302001, India</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 FossWorkshop. All rights reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#cookies">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+
+    <!-- <script>
+        // Mobile Menu Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+            const mobileMenuClose = document.querySelector('.mobile-menu-close');
+            const mobileDropdownToggles = document.querySelectorAll('.dropdown-toggle');
+
+            // Toggle mobile menu
+            mobileMenuBtn.addEventListener('click', function() {
+                mobileMenuOverlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+
+            // Close mobile menu
+            mobileMenuClose.addEventListener('click', function() {
+                mobileMenuOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+
+            // Close menu when clicking overlay
+            mobileMenuOverlay.addEventListener('click', function(e) {
+                if (e.target === mobileMenuOverlay) {
+                    mobileMenuOverlay.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // Mobile dropdown functionality
+            mobileDropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const dropdownContent = this.nextElementSibling;
+                    this.classList.toggle('active');
+                    
+                    if (dropdownContent.style.maxHeight) {
+                        dropdownContent.style.maxHeight = null;
+                    } else {
+                        dropdownContent.style.maxHeight = dropdownContent.scrollHeight + "px";
+                    }
+                });
+            });
+
+            // Navbar scroll effect
+            let lastScroll = 0;
+            const navbar = document.querySelector('.navbar');
+
+            window.addEventListener('scroll', () => {
+                const currentScroll = window.pageYOffset;
+
+                if (currentScroll <= 0) {
+                    navbar.classList.remove('scroll-up');
+                    return;
+                }
+
+                if (currentScroll > lastScroll && !navbar.classList.contains('scroll-down')) {
+                    navbar.classList.remove('scroll-up');
+                    navbar.classList.add('scroll-down');
+                } else if (currentScroll < lastScroll && navbar.classList.contains('scroll-down')) {
+                    navbar.classList.remove('scroll-down');
+                    navbar.classList.add('scroll-up');
+                }
+                lastScroll = currentScroll;
+            });
+        });
+    </script> -->
+</body>
+</html> 
